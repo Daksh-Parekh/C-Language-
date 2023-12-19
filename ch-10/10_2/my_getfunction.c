@@ -24,3 +24,33 @@ float getgrade()
 
 	return sum;
 }
+//array call by refrence
+int getInt()
+{
+	int n;
+	scanf("%d",&n);
+	
+	return n;	
+}
+
+void arrayInput(int a[],int n)
+{
+	int i;
+	
+	
+	for(i=0;i<n;i++)
+	{
+		printf("Enter a[%d]: ",i);
+		a[i]=getInt();
+	}
+}
+
+void arrayOutput(int a[],int n)
+{
+	int i;
+	
+	for(i=0;i<n;i++)
+	{
+		printf("a[%d]: %d\n",i,a[i]);
+	}
+}
