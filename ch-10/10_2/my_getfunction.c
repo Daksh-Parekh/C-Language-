@@ -24,7 +24,8 @@ float getgrade()
 
 	return sum;
 }
-//array call by refrence
+//array call by refrence+
+
 int getInt()
 {
 	int n;
