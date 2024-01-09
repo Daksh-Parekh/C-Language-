@@ -24,7 +24,7 @@ float getgrade()
 
 	return sum;
 }
-//array call by refrence+
+//array call by refrence 
 
 int getInt()
 {
@@ -54,4 +54,12 @@ void arrayOutput(int a[],int n)
 	{
 		printf("a[%d]: %d\n",i,a[i]);
 	}
+}
+
+int Arraylength()
+{
+	int n;
+	printf("Enter Array Length: ");
+	n=getInt();
+	return n;
 }
