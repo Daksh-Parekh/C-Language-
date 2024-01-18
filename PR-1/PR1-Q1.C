@@ -3,7 +3,7 @@
 main()
 {
 	float c,f;
-	clrscr();
+
 
 	printf("Enter celsius: ");
 	scanf("%f",&c);
@@ -12,5 +12,5 @@ main()
 	printf("Enter fahrenheit:%.2f ",f);
 
 
-	getch();
+
 }
